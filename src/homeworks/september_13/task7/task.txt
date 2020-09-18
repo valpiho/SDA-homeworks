@@ -3,4 +3,4 @@ We’re planning vacations
 can use a nested while loop to gather information and a HashMap to store it.
 + b. Display the created plan.
 + i. *if city occurs on the list twice it should be displayed as “back and forth”
-c. Store created plan using JSON.
++ c. Store created plan using JSON.

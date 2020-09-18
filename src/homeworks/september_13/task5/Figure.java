@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Figure {
 
-    private List<ArrayList<Character>> listOfLists;
+    private List<ArrayList<String>> listOfLists;
     private int rows;
     private int columns;
 
@@ -17,21 +17,22 @@ public class Figure {
         this.rows = scanner.nextInt();
         System.out.println("Please enter how many rows you want");
         this.columns = scanner.nextInt();
-        this.listOfLists = new ArrayList<>();
+
     }
 
     public void createFigure() {
-        for (int i = 0; i == this.rows; i++) {
-            this.listOfLists.add(new ArrayList<>());
-            for (int j = 0; j == this.columns; j++) {
-                char f = '*';
-                this.listOfLists.get(i).add(f);
+        this.listOfLists = new ArrayList<>();
+        for (int i = 0; i <= this.rows; i++) {
+            this.listOfLists.add(i, new ArrayList<>());
+            for (int j = 0; j <= this.columns; j++) {
+                String f = "*";
+                this.listOfLists.get(i).add(j, f);
             }
         }
     }
 
     public void showFigure() {
-        this.listOfLists.forEach(e -> e.forEach(System.out::println));
+        this.listOfLists.forEach(System.out::println);
     }
 
     public void addRow() {
