@@ -7,6 +7,6 @@ Let’s buy a vehicle
 “John Smith born 3/24/1984”. Provided information will be parsed using Regex
 within Parser class. Parser class should receive char sequence and return an object of
 type Person or Null if provided details will not have required information.
-f. Created person will then buy a bike and car. Information about what and when was
++ f. Created person will then buy a bike and car. Information about what and when was
 bought should be displayed.
 + g. Brand and model of car/bike should be stored using variable of type Enum.
