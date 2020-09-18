@@ -1,6 +1,6 @@
 Create a Map where the key will be the employee and the value - his manager.
 + a. The key and value are of the String type
 + b. The key and value are classes of type "Employee" and "Manager"
-c. * The key is of type "Manager", the value is a list storing the type "Employee"
-d. * Let the employee be dismissed, display the result
-e. * Allow to employ a new employee, display the result
++ c. * The key is of type "Manager", the value is a list storing the type "Employee"
++ d. * Let the employee be dismissed, display the result
++ e. * Allow to employ a new employee, display the result
