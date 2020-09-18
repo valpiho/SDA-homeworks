@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 public class Warehouse {
 
     private final HashSet<Item> warehouse;
-    private int getIntFromString;
 
     public Warehouse(HashSet<Item> warehouse) {
         this.warehouse = warehouse;
