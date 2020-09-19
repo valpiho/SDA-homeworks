@@ -1,6 +1,0 @@
-Create a List that stores the character, e.g. "*".
-a. Use the list to draw a horizontal line.
-b. Draw a vertical line
-c. Draw a square full of asterisks.
-d. * Inside the loop, allow the user to select "add" / "delete" "row" / "column" - display
-the effect after each selection.

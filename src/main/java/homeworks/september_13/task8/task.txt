@@ -1,0 +1,5 @@
+We’re going on vacation
+a. Load created in the previous exercise plan (JSON). Display it.
+b. Create a simple interaction with a user. Every time, when user will press Enter (or
+write “next”) next city (or country) should be displayed.
+c. Add a possibility to remove a city/country from the list (user was not able to visit it)
