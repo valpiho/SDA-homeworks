@@ -1,3 +1,5 @@
 # IntelliJ
 out/
 .idea/
+.idea/misc.xml
+target/

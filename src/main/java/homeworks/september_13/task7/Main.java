@@ -8,5 +8,6 @@ public class Main {
         RoutePlanner routePlanner = new RoutePlanner();
 
         routePlanner.show();
+        routePlanner.convertToJSON();
     }
 }

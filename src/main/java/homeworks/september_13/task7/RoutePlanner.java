@@ -1,5 +1,10 @@
 package homeworks.september_13.task7;
 
+import com.google.gson.Gson;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -47,4 +52,20 @@ public class RoutePlanner {
         }
         this.route.forEach((k, v) -> System.out.println(k + " -> " + v));
     }
+
+    public void convertToJSON() {
+        Gson gson = new Gson();
+        String json = gson.toJson(this.route);
+        try {
+            File file = new File("D:\\SDA\\src\\main\\java\\homeworks\\september_13\\task7\\JsonFile.json");
+            FileWriter fileWriter = new FileWriter(file);
+            fileWriter.write(json);
+            fileWriter.flush();
+            fileWriter.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
