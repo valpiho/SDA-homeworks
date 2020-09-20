@@ -1,0 +1,6 @@
+* Statistics
++ a. Create a file that will contain any text. It can be generated using lorem ipsum library.
++ b. Create statistics of words contained in the text.
++ c. Display the number of occurrences of individual words in the form
+<word>: <number of occurrences>
+d. * as above sorted
