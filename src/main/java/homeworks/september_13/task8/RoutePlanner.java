@@ -8,10 +8,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class RoutesPlanner {
+public class RoutePlanner {
     private List<Route> routes;
 
-    public RoutesPlanner(String path) {
+    public RoutePlanner(String path) {
         this.routes = createNewRoutesFromFile(path);
     }
 

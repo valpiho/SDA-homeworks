@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        RoutesPlanner routesPlanner = new RoutesPlanner(
-                "D:\\SDA\\src\\main\\java\\homeworks\\september_13\\task8\\JsonFile.json");
+        RoutePlanner routePlanner = new RoutePlanner(
+                "JsonFile.json");
 
-        System.out.println(routesPlanner.showRoute());
+        System.out.println(routePlanner.showRoute());
     }
 }
