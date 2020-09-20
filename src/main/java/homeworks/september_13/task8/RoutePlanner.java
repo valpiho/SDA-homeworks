@@ -59,7 +59,7 @@ public class RoutesPlanner {
                 deleteFromCities.add(element);
             }
         });
-        
+
         for (String s : deleteFromCities) {
             route.getCities().remove(s);
         }

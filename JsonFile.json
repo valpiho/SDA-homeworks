@@ -1,0 +1,7 @@
+[ {
+  "routeTitle" : "Est",
+  "cities" : [ "Tallinn", "Kohtla", "Narva", "Tallinn back and forth", "Keila", "Parnu" ]
+}, {
+  "routeTitle" : "Fin",
+  "cities" : [ "Hellsinki", "Oulu", "Vantaa" ]
+} ]
