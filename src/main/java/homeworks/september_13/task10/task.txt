@@ -1,0 +1,15 @@
+*Create a factory that includes Manager, employees (Worker) and *Director.
+a. loops, conditions - adding employees, displaying currently working (what they do),
+getting orders from the user.
+b. OOP - all employees (including the director), inherit from the common class
+(Employee). Each employee may have a work tool (e.g. Hammer, Laptop,
+PointingFinger).
+c. collections - appropriate grouping of data
+d. * threads - use the while loop only to receive orders from the user, use the threads
+to display status / modify each object.
+e. ** additional functionalities – e.g. displaying information about who and how much
+has earned since the beginning of work (counting every few seconds), "deduct in
+succession" - sorted list of employees (by name), employee data can be loaded from
+the file at the beginning.
+f. ** support for the Director class - displaying information "everybody works - great!",
+"where is <name> ?!" (e.g. if the employee has left earlier).
