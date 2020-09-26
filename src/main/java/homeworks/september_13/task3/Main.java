@@ -1,7 +1,5 @@
 package homeworks.september_13.task3;
 
-import homeworks.september_13.task2.Item;
-
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
