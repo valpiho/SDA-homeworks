@@ -11,7 +11,7 @@ public class Parser {
 
     public static Person getPersonInfo() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter your information");
+        System.out.println("Please enter your information: Firstname Lastname City 01/01/2000");
         String personInfo = scanner.nextLine();
 
         Pattern pattern = Pattern.compile("^(?:\\b\\w+\\b[\\s]*){3}(?=\\d{2}/\\d{2}/\\d{4}$)");
