@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static EmployeeFactory createEmployeeByDepartment(String department) {
-        return switch (department) {
+        return switch (department.toLowerCase()) {
             case "director" -> new DirectorFactory();
             case "manager" -> new ManagerFactory();
             case "worker" -> new WorkerFactory();
