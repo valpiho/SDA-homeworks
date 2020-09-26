@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
 
-        Path path = Paths.get("D:\\SDA\\src\\homeworks\\september_13\\task3\\MOCK_DATA.csv");
+        Path path = Paths.get("MOCK_DATA.csv");
         List<String> stringsList = new ArrayList<>();
         List<Person> objectsList;
 
